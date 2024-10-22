@@ -49,6 +49,7 @@ ul {
 
 /* Solution starts here */
 
+<<<<<<< HEAD
 .left-group,
 .right-group,
 .links  {
@@ -56,10 +57,18 @@ ul {
   align-items: center;
   gap: 16px;
   padding: 0 8px;
+=======
+ul {
+  display: flex;
+  gap: 16px;
+  padding: 0px;
+  margin: 0px;
+>>>>>>> a35f05b0210ef0fd3a477d8d17756012530a91ff
 }
 
 .header {
   display: flex;
+<<<<<<< HEAD
   align-items: center;
   justify-content: space-between;
 }
@@ -70,4 +79,16 @@ ul {
 
 ul {
   padding: 0;
+=======
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+}
+
+.left,
+.right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+>>>>>>> a35f05b0210ef0fd3a477d8d17756012530a91ff
 }

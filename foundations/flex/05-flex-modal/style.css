@@ -68,12 +68,29 @@ button.cancel {
   color: royalblue;
 }
 
+<<<<<<< HEAD
 /* Solution */
 
 .modal {
   display: flex;
   gap: 16px;
   padding: 16px;
+=======
+/* Solution starts here */
+
+.modal {
+  display: flex;
+  padding: 16px;
+  gap: 16px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+>>>>>>> a35f05b0210ef0fd3a477d8d17756012530a91ff
 }
 
 .icon {
@@ -83,6 +100,7 @@ button.cancel {
 .content {
   display: flex;
   flex-direction: column;
+<<<<<<< HEAD
   gap: 12px;
 }
 
@@ -92,4 +110,7 @@ button.cancel {
   align-items: center;
   font-weight: bold;
   font-size: 20px;
+=======
+  gap: 16px;
+>>>>>>> a35f05b0210ef0fd3a477d8d17756012530a91ff
 }
